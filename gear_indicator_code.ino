@@ -14,8 +14,8 @@ const int sensor_4 = 7;
 
 void setup() 
 {
-  Serial.begin(115200); //might not be needed? but why
-  u8g2.begin(); //start u8g2 library
+  Serial.begin(115200);
+  u8g2.begin();
 
   pinMode(sensor_0, INPUT_PULLUP);
   pinMode(sensor_1, INPUT_PULLUP);
